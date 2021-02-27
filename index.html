@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Free WebRTC Server</title>
+</head>
+<body>
+
+    <div id="container">
+        <input id="publisherID" type="text" placeholder="publisherID">
+
+        <div id="publisherSection">
+            <video id="publisherVideo" autoplay muted controls playsinline></video>
+            <button id="publisherButton">PUBLISH</button>
+        </div>
+        
+        <div id="subscriberSection">
+            <video id="subscriberVideo" autoplay muted controls playsinline></video>
+            <button id="subscriberButton">SUBSCRIBE</button>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
